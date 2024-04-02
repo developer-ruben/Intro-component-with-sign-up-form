@@ -130,12 +130,16 @@ body {
   font: inherit;
   width: 100%;
   outline: 0;
-  border: 1px solid var(--color-accent-blue);
+  border: 1px solid var(--color-neutral-grayish-blue);
   border-radius: 0.5rem;
   padding: 1.5rem 0 1.5rem 3.2rem;
   font-weight: 600;
   font-size: 1.4rem;
   letter-spacing: 0.25px;
+}
+
+.form__input:focus {
+  border-color: var(--color-accent-blue);
 }
 
 .form__group--error {
